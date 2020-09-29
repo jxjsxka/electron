@@ -1,4 +1,5 @@
 <template>
+<div class="m-container">
   <div class="addpro">
     <el-row :gutter="24" class="pro-list">
       <el-col :span="24">
@@ -37,6 +38,7 @@
         </el-card>
       </el-col>
     </el-row>
+  </div>
   </div>
 </template>
 

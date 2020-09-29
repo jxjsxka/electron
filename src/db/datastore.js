@@ -18,4 +18,8 @@ if (!db.has('project').value()) {
     db.set('project', []).write()
 }
 
+if (!db.has('user').value()) {
+    db.set('user', [{ username: 'admin', password: '123456', Identity: '老大' }, { username: 'zymm', password: '123456', Identity: '小弟' }]).write()
+}
+
 export default db // 暴露出去
